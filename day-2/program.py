@@ -6,7 +6,7 @@ total1 = 0
 total2 = 0
 
 for line in data:
-    match = re.match(r"(\d*)-(\d*) (.): (.*)$", line)
+    match = re.match(r"^(\d*)-(\d*) (.): (.*)$", line)
     (low, high, char, password) = match.groups()
 
     low = int(low)
