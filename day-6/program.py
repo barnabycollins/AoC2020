@@ -1,4 +1,4 @@
-import re, functools
+import re
 
 data = open("./input.txt", "r").read()
 
